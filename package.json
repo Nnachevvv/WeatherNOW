@@ -1,0 +1,10 @@
+{
+  "name": "WeatherNow",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-fetch": "latest"
+  },
+  "devDependencies": {
+    "cross-fetch": "^3.0.4"
+  }
+}
