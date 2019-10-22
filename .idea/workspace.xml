@@ -2,15 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b4ec792-b35f-4912-b8f0-878fd34a63e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/r_js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/browser-ponyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/cross-fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/cross-fetch.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/node-polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/node-ponyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/react-native-polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/dist/react-native-ponyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-fetch/polyfill/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/lib/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requirejs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requirejs/bin/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requirejs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/requirejs/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/dist/fetch.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/dist/fetch.umd.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/fetch.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +48,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="434" />
+    <option name="myElementSize" value="492" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,7 +147,7 @@
       <workItem from="1571690246058" duration="605000" />
       <workItem from="1571693011459" duration="754000" />
       <workItem from="1571729557326" duration="1519000" />
-      <workItem from="1571766604333" duration="3225000" />
+      <workItem from="1571766604333" duration="3396000" />
     </task>
     <servers />
   </component>
@@ -151,6 +180,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/WeatherNow$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1571769976174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/WeatherNow$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1571770252004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

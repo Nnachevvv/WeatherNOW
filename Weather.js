@@ -21,6 +21,7 @@ async function getUserIp(){
         console.error(error);
     });
 }
+
 getUserIp().catch(error => {
     console.error(error);
 });
