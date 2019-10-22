@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b4ec792-b35f-4912-b8f0-878fd34a63e8" name="Default Changelist" comment="" />
+    <list default="true" id="4b4ec792-b35f-4912-b8f0-878fd34a63e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Weather.js" beforeDir="false" afterPath="$PROJECT_DIR$/Weather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/whatwg-fetch/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="434" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -14,8 +27,12 @@
         <option value="JavaScript File" />
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -24,10 +41,13 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1SSdSDtOEp2kcrq1MKgEGy41x2Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,7 +55,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,12 +76,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WeatherNow/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Weather.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Weather.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+        <browser start="true" />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Node.js.Weather.js" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.Weather.js" />
       </list>
     </recent_temporary>
@@ -69,11 +110,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571560928796</updated>
-      <workItem from="1571560929952" duration="7934000" />
+      <workItem from="1571560929952" duration="9304000" />
+      <workItem from="1571581310933" duration="11000" />
+      <workItem from="1571595569833" duration="1209000" />
+      <workItem from="1571604497825" duration="1504000" />
+      <workItem from="1571684335379" duration="34000" />
+      <workItem from="1571690246058" duration="605000" />
+      <workItem from="1571693011459" duration="754000" />
+      <workItem from="1571729557326" duration="1519000" />
+      <workItem from="1571766604333" duration="3225000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/Weather.js</url>
+          <line>17</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WeatherNow$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1571769976174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

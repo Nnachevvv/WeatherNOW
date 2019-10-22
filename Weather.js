@@ -1,43 +1,26 @@
-const fetch = require("node-fetch");
-
-function getCityByName(name)
-{
-    let jsonVar ;
-        const URL = `http://api.worldweatheronline.com/premium/v1/weather.ashx?key=c0eb8f9a895b4018b02104946192010&q=${name}&format=json&includelocation=yes`;
-    fetch(URL)
-        .then(res =>{
-            return res.json()
-        }).then(json =>
-         {
-            //console.log(data);
-            extractDataFromJson(json);
-         });
-}
-
 function extractDataFromJson(json) {
-    let city = json.data.request[0].query;
+    let city = json.data.nearest_area[0].areaName[0].value;
+    let country = json.data.nearest_area[0].country[0].value;
     let temp = json.data.current_condition[0].temp_C;
-    console.log(temp);
+    document.getElementById("city").innerText = city+ " " + country;
 }
 
-
-function getCityIp(ip)
+async function getCity(value)
 {
-    let userIp = ip.ip;
-    console.log(userIp);
-    const URL = `http://api.worldweatheronline.com/premium/v1/weather.ashx?key=c0eb8f9a895b4018b02104946192010&q=${userIp}&format=json&includelocation=yes`;
-    fetch(URL)
-        .then(res => res.json())
-        .then(json => console.log(json.data));
+    const URL = `http://api.worldweatheronline.com/premium/v1/weather.ashx?key=c0eb8f9a895b4018b02104946192010&q=${value}&format=json&includelocation=yes`;
+    const response = await fetch(URL);
+    const jsonValue = await response.json();
+    console.log(jsonValue);
+    extractDataFromJson(jsonValue);
 }
 
-
-function getCurrentIP()
-{
-    fetch('https://api.ipify.org/?format=json')
-        .then(res => res.json())
-        .then((out) => {
-            getCityIp(out);
-        });
+async function getUserIp(){
+    const response = await fetch('https://api.ipify.org/?format=json');
+    const ip = await response.json();
+    await getCity(ip.ip).catch(error => {
+        console.error(error);
+    });
 }
-let print = getCityByName("Sofia");
+getUserIp().catch(error => {
+    console.error(error);
+});
